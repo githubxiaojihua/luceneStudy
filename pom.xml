@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xiaojihua</groupId>
+    <artifactId>luceneStudy</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>luceneFirst</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <properties>
+        <!-- 设置maven的编码方式-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- 设置maven的编译版本，默认为1.5，还有一种方式就是设置maven-compiler-plugin插件-->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- lucene相关依赖-->
+        <!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-core -->
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-core</artifactId>
+            <version>4.10.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-analyzers-common -->
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-analyzers-common</artifactId>
+            <version>4.10.3</version>
+        </dependency>
+
+        <!-- io流相关依赖-->
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+
+        <!-- 引入IKAnalyzer中文分词器，使用手工发布到maven仓库的办法引用的-->
+        <dependency>
+            <groupId>com.xiaojihua</groupId>
+            <artifactId>IKAnalyzer</artifactId>
+            <version>2012ff</version>
+        </dependency>
+
+
+
+
+
+
+
+
+
+    </dependencies>
+
+
+</project>
