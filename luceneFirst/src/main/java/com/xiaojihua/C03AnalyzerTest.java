@@ -8,7 +8,10 @@ import org.wltea.analyzer.lucene.IKAnalyzer;
 
 import java.io.IOException;
 
-public class AnalyzerTest {
+/**
+ * 分词器的使用
+ */
+public class C03AnalyzerTest {
 
     /**
      * 测试分词器，获得分词器的处理结果
@@ -45,7 +48,7 @@ public class AnalyzerTest {
      */
     @Test
     public void test2() throws IOException {
-// 创建一个标准分析器对象
+        // 创建一个标准分析器对象
         IKAnalyzer analyzer = new IKAnalyzer();
         // 获得tokenStream对象
         // 第一个参数：域名，可以随便给一个

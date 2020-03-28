@@ -13,7 +13,10 @@ import org.junit.Test;
 import java.io.File;
 import java.io.IOException;
 
-public class IndexReaderTest {
+/**
+ * 读取索引
+ */
+public class C02IndexReaderTest {
 
     @Test
     public void test() throws IOException {

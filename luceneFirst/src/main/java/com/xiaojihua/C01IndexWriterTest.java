@@ -7,6 +7,7 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
+import org.apache.lucene.document.LongField;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
@@ -17,7 +18,10 @@ import org.junit.Test;
 import java.io.File;
 import java.io.IOException;
 
-public class IndexWriterTest {
+/**
+ * 创建索引
+ */
+public class C01IndexWriterTest {
 
     @Test
     public void test1() throws IOException {
@@ -46,7 +50,7 @@ public class IndexWriterTest {
             doc.add(nameField);
             // 2、文件大小
             long fileSize = FileUtils.sizeOf(file);
-            Field sizeField = new TextField("size", fileSize+"", Field.Store.YES);
+            Field sizeField = new LongField("size", fileSize, Field.Store.YES);
             doc.add(sizeField);
             // 3、文件路径
             String filePath = file.getPath();

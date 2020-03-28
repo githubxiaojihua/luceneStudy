@@ -58,12 +58,12 @@
             <version>2012ff</version>
         </dependency>
 
-
-
-
-
-
-
+        <!-- 引入lucene的queryparser查询包，这里是手工发布到maven仓库-->
+        <dependency>
+            <groupId>lucene</groupId>
+            <artifactId>queryparser</artifactId>
+            <version>4.10.3</version>
+        </dependency>
 
 
     </dependencies>
