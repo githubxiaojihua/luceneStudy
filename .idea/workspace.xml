@@ -5,6 +5,7 @@
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/luceneFirst/target/" />
+    <ignored path="$PROJECT_DIR$/../luceneStudy/solrStudy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +32,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../luceneStudy/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+            <state relative-caret-position="273">
+              <caret line="88" column="21" selection-start-line="78" selection-start-column="8" selection-end-line="88" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -40,8 +41,8 @@
       <file leaf-file-name="C01IndexWriterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C01IndexWriterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+            <state relative-caret-position="432">
+              <caret line="65" column="13" selection-start-line="63" selection-start-column="12" selection-end-line="65" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,7 +53,7 @@
       <file leaf-file-name="C03AnalyzerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C03AnalyzerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
+            <state relative-caret-position="968">
               <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="C04IndexRepoTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="C04IndexRepoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C04IndexRepoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+            <state relative-caret-position="418">
+              <caret line="223" column="27" selection-start-line="223" selection-start-column="27" selection-end-line="223" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,20 +74,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ext.dic" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/resources/ext.dic">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../luceneStudy/solrStudy/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="4" />
+            <state relative-caret-position="418">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IKAnalyzer.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/resources/IKAnalyzer.cfg.xml">
+      <file leaf-file-name="SolrJTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../luceneStudy/solrStudy/src/main/java/com/xiaojihua/SolrJTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="387">
+              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../luceneStudy/solrStudy/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -94,29 +107,11 @@
       <file leaf-file-name="C02IndexReaderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C02IndexReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="48" />
+            <state relative-caret-position="212">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="总结" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/总结">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -149,11 +144,17 @@
         <option value="$PROJECT_DIR$/luceneFirst/src/main/resources/ext.dic" />
         <option value="$PROJECT_DIR$/luceneFirst/src/main/java/com/xiaojihua/AnalyzerTest.java" />
         <option value="$PROJECT_DIR$/luceneFirst/src/main/java/com/xiaojihua/AnalyzerTest.java" />
-        <option value="$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C02IndexReaderTest.java" />
-        <option value="$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C03AnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/luceneFirst/src/main/java/com/xiaojihua/C02IndexReaderTest.java" />
+        <option value="$PROJECT_DIR$/luceneFirst/src/main/java/com/xiaojihua/C03AnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/luceneFirst/src/main/java/com/xiaojihua/C01IndexWriterTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/luceneFirst/src/main/java/com/xiaojihua/C04IndexRepoTest.java" />
         <option value="$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C01IndexWriterTest.java" />
-        <option value="$PROJECT_DIR$/../luceneStudy/pom.xml" />
         <option value="$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C04IndexRepoTest.java" />
+        <option value="$PROJECT_DIR$/../luceneStudy/solrStudy/pom.xml" />
+        <option value="$PROJECT_DIR$/../luceneStudy/pom.xml" />
+        <option value="$PROJECT_DIR$/../luceneStudy/solrStudy/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/../luceneStudy/solrStudy/src/main/java/com/xiaojihua/SolrJTest.java" />
       </list>
     </option>
   </component>
@@ -195,9 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,25 +206,25 @@
             <path>
               <item name="luceneStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="luceneStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="luceneFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="solrStudy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="luceneStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="luceneStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="luceneFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="solrStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="luceneStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="luceneStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="luceneFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="solrStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="luceneStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="luceneStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="luceneFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="solrStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -234,16 +232,27 @@
             <path>
               <item name="luceneStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="luceneStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="luceneFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="solrStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiaojihua" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="luceneStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luceneStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="solrStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,6 +268,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\luceneStudy\solrStudy\src\main\resources" />
       <recent name="I:\luceneStudy" />
       <recent name="I:\luceneStudy\luceneFirst\src\main\resources" />
     </key>
@@ -275,34 +285,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.C04IndexRepoTest.testMulitFieldQueryParserTest">
+  <component name="RunManager" selected="JUnit.SolrJTest.test4">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="C01IndexWriterTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="luceneFirst" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaojihua.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaojihua" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.C01IndexWriterTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="C04IndexRepoTest.testBooleanQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04IndexRepoTest.testBoost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="luceneFirst" />
       <extension name="coverage">
         <pattern>
@@ -314,7 +301,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.xiaojihua" />
       <option name="MAIN_CLASS_NAME" value="com.xiaojihua.C04IndexRepoTest" />
-      <option name="METHOD_NAME" value="testBooleanQuery" />
+      <option name="METHOD_NAME" value="testBoost" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -325,8 +312,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="C04IndexRepoTest.testMulitFieldQueryParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="luceneFirst" />
+    <configuration name="SolrJTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="solrStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xiaojihua.*" />
@@ -336,8 +323,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.xiaojihua" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.C04IndexRepoTest" />
-      <option name="METHOD_NAME" value="testMulitFieldQueryParserTest" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.SolrJTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -348,8 +335,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="C04IndexRepoTest.testNumericRangeQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="luceneFirst" />
+    <configuration name="SolrJTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="solrStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xiaojihua.*" />
@@ -359,8 +346,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.xiaojihua" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.C04IndexRepoTest" />
-      <option name="METHOD_NAME" value="testNumericRangeQuery" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.SolrJTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -371,8 +358,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="C04IndexRepoTest.testQueryParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="luceneFirst" />
+    <configuration name="SolrJTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="solrStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xiaojihua.*" />
@@ -382,8 +369,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.xiaojihua" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.C04IndexRepoTest" />
-      <option name="METHOD_NAME" value="testQueryParser" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.SolrJTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SolrJTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="solrStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaojihua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xiaojihua" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.SolrJTest" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -433,19 +443,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.C04IndexRepoTest.testNumericRangeQuery" />
-      <item itemvalue="JUnit.C01IndexWriterTest.test1" />
-      <item itemvalue="JUnit.C04IndexRepoTest.testBooleanQuery" />
-      <item itemvalue="JUnit.C04IndexRepoTest.testQueryParser" />
-      <item itemvalue="JUnit.C04IndexRepoTest.testMulitFieldQueryParserTest" />
+      <item itemvalue="JUnit.C04IndexRepoTest.testBoost" />
+      <item itemvalue="JUnit.SolrJTest.test" />
+      <item itemvalue="JUnit.SolrJTest.test2" />
+      <item itemvalue="JUnit.SolrJTest.test3" />
+      <item itemvalue="JUnit.SolrJTest.test4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C04IndexRepoTest.testMulitFieldQueryParserTest" />
-        <item itemvalue="JUnit.C04IndexRepoTest.testQueryParser" />
-        <item itemvalue="JUnit.C04IndexRepoTest.testBooleanQuery" />
-        <item itemvalue="JUnit.C04IndexRepoTest.testNumericRangeQuery" />
-        <item itemvalue="JUnit.C01IndexWriterTest.test1" />
+        <item itemvalue="JUnit.SolrJTest.test4" />
+        <item itemvalue="JUnit.SolrJTest.test" />
+        <item itemvalue="JUnit.SolrJTest.test3" />
+        <item itemvalue="JUnit.SolrJTest.test2" />
+        <item itemvalue="JUnit.C04IndexRepoTest.testBoost" />
       </list>
     </recent_temporary>
   </component>
@@ -463,44 +473,45 @@
       <workItem from="1585216923800" duration="804000" />
       <workItem from="1585272100652" duration="6891000" />
       <workItem from="1585292940425" duration="2199000" />
-      <workItem from="1585366113520" duration="9246000" />
+      <workItem from="1585366113520" duration="9775000" />
+      <workItem from="1585529060023" duration="5794000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C01IndexWriterTest_test1 - 2020.03.28 at 17h 52m 33s.xml">
-      <configuration name="C01IndexWriterTest.test1" configurationId="JUnit" />
+    <history-entry file="SolrJTest_test - 2020.03.30 at 14h 11m 04s.xml">
+      <configuration name="SolrJTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C04IndexRepoTest_testNumericRangeQuery - 2020.03.28 at 17h 52m 50s.xml">
-      <configuration name="C04IndexRepoTest.testNumericRangeQuery" configurationId="JUnit" />
+    <history-entry file="SolrJTest_test2 - 2020.03.30 at 14h 18m 49s.xml">
+      <configuration name="SolrJTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C04IndexRepoTest_testBooleanQuery - 2020.03.28 at 17h 58m 36s.xml">
-      <configuration name="C04IndexRepoTest.testBooleanQuery" configurationId="JUnit" />
+    <history-entry file="SolrJTest_test2 - 2020.03.30 at 14h 20m 13s.xml">
+      <configuration name="SolrJTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C04IndexRepoTest_testBooleanQuery - 2020.03.28 at 17h 58m 53s.xml">
-      <configuration name="C04IndexRepoTest.testBooleanQuery" configurationId="JUnit" />
+    <history-entry file="SolrJTest_test - 2020.03.30 at 14h 20m 47s.xml">
+      <configuration name="SolrJTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C04IndexRepoTest_testBooleanQuery - 2020.03.28 at 17h 59m 39s.xml">
-      <configuration name="C04IndexRepoTest.testBooleanQuery" configurationId="JUnit" />
+    <history-entry file="SolrJTest_test - 2020.03.30 at 14h 22m 09s.xml">
+      <configuration name="SolrJTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C04IndexRepoTest_testQueryParser - 2020.03.28 at 18h 18m 40s.xml">
-      <configuration name="C04IndexRepoTest.testQueryParser" configurationId="JUnit" />
+    <history-entry file="SolrJTest_test - 2020.03.30 at 14h 22m 41s.xml">
+      <configuration name="SolrJTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C04IndexRepoTest_testQueryParser - 2020.03.28 at 18h 19m 39s.xml">
-      <configuration name="C04IndexRepoTest.testQueryParser" configurationId="JUnit" />
+    <history-entry file="SolrJTest_test2 - 2020.03.30 at 14h 24m 35s.xml">
+      <configuration name="SolrJTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C04IndexRepoTest_testQueryParser - 2020.03.28 at 18h 19m 53s.xml">
-      <configuration name="C04IndexRepoTest.testQueryParser" configurationId="JUnit" />
+    <history-entry file="SolrJTest_test3 - 2020.03.30 at 14h 26m 06s.xml">
+      <configuration name="SolrJTest.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C04IndexRepoTest_testQueryParser - 2020.03.28 at 18h 21m 39s.xml">
-      <configuration name="C04IndexRepoTest.testQueryParser" configurationId="JUnit" />
+    <history-entry file="SolrJTest_test4 - 2020.03.30 at 14h 36m 17s.xml">
+      <configuration name="SolrJTest.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="C04IndexRepoTest_testMulitFieldQueryParserTest - 2020.03.28 at 18h 27m 08s.xml">
-      <configuration name="C04IndexRepoTest.testMulitFieldQueryParserTest" configurationId="JUnit" />
+    <history-entry file="SolrJTest_test - 2020.03.30 at 14h 37m 02s.xml">
+      <configuration name="SolrJTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19950000" />
+    <option name="totallyTimeSpent" value="26273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -508,7 +519,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32796487" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -516,11 +527,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45827234" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5739385" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45760235" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17962466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1816354" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -544,6 +555,81 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C01IndexWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C03AnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/resources/ext.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/resources/IKAnalyzer.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C02IndexReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C04IndexRepoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4048">
+          <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../luceneStudy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1078">
@@ -756,7 +842,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C03AnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
+        <state relative-caret-position="968">
           <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -766,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C02IndexReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="212">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -776,25 +862,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C01IndexWriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        <state relative-caret-position="432">
+          <caret line="65" column="13" selection-start-line="63" selection-start-column="12" selection-end-line="65" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../luceneStudy/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C04IndexRepoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+        <state relative-caret-position="418">
+          <caret line="223" column="27" selection-start-line="223" selection-start-column="27" selection-end-line="223" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../luceneStudy/luceneFirst/src/main/java/com/xiaojihua/C04IndexRepoTest.java">
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/solrStudy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+        <state relative-caret-position="418">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="88" column="21" selection-start-line="78" selection-start-column="8" selection-end-line="88" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/solrStudy/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.3/solr-solrj-4.10.3.jar!/org/apache/solr/common/params/ModifiableSolrParams.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.3/solr-solrj-4.10.3.jar!/org/apache/solr/client/solrj/SolrQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../luceneStudy/solrStudy/src/main/java/com/xiaojihua/SolrJTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

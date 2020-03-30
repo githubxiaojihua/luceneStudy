@@ -214,6 +214,30 @@ public class C04IndexRepoTest {
         printResult(query);
     }
 
+    /**
+     * 测试加权值
+     * 在C01IndexWriterTest的test1方法中，创建索引的时候将springmvc.txt的content域做了
+     * 加权处理，所以在查询的时候如果符合查询条件，则此文件的排名是靠前的。
+     * if(fileName.equals("springmvc.txt")){
+     *                 contentField.setBoost(20f);
+     *             }
+     * 如果没有上面的设置，则按照原始打分来排序
+     * @throws ParseException
+     * @throws IOException
+     */
+    @Test
+    public void testBoost() throws ParseException, IOException {
+        String[] fields = {"content"};
+        MultiFieldQueryParser multiFieldQueryParser = new MultiFieldQueryParser(fields, new IKAnalyzer());
+        Query query = multiFieldQueryParser.parse("spring");
+        printResult(query);
+    }
+
+    /**
+     * 公共方法
+     * @param query
+     * @throws IOException
+     */
     public void printResult(Query query) throws IOException {
         // 创建searcher
         IndexSearcher indexSearcher = new IndexSearcher(indexReader);
@@ -222,12 +246,14 @@ public class C04IndexRepoTest {
         // 执行查询
         TopDocs docs = indexSearcher.search(query,100);
         System.out.println("总记录数：" + docs.totalHits);
+        System.out.println("=============================");
         ScoreDoc[] scoreDocs = docs.scoreDocs;
         for(ScoreDoc doc : scoreDocs){
             Document document = indexSearcher.doc(doc.doc);
-            System.out.println(document.get("name"));
-            System.out.println(document.get("size"));
-            System.out.println(document.get("path"));
+            System.out.println("name:" + document.get("name"));
+            System.out.println("size:" + document.get("size"));
+            System.out.println("path:" + document.get("path"));
+            System.out.println("=============================");
         }
         // 关闭资源
         indexReader.close();

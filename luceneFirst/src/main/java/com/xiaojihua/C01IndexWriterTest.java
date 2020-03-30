@@ -59,6 +59,12 @@ public class C01IndexWriterTest {
             // 4、文件内容
             String fileContent = FileUtils.readFileToString(file);
             Field contentField = new TextField("content", fileContent, Field.Store.YES);
+
+            // 在文件内容上设置加权值来影响最终的搜索排名
+            if(fileName.equals("springmvc.txt")){
+                contentField.setBoost(20f);
+            }
+
             doc.add(contentField);
 
             // 4、把文档写入索引库
